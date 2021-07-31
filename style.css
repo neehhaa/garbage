@@ -1,0 +1,43 @@
+.end-bar{
+    display: flex;
+    justify-content: space-between;    
+}
+@media (max-width:1190px) {
+    .end-bar{
+        display: none;
+    }
+    
+}
+
+
+.txt-box{
+    width: 20em;
+}
+.txt-box h1{
+    font-size: 1.9em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.txt-box p{
+    
+    margin-top: 15px;
+    font-size: 1.3em;
+}
+
+.vr{
+    border: 1px solid rgb(197, 196, 196);
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+.apps-info{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: -5em;
+}
+.app{
+    margin-top: 30px;
+}
